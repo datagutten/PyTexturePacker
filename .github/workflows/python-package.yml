@@ -32,3 +32,6 @@ jobs:
     - name: Test
       run: |
         python test.py
+    - name: Install
+      run: python setup.py install
+      
